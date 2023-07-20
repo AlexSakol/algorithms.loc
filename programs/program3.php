@@ -1,3 +1,6 @@
+<!-- Calculate y(x),
+if z < -1 x = -z/3
+if z >= -1 x=|z| -->
 <!DOCTYPE html>
 <html>
 <head>

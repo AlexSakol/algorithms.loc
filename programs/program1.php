@@ -1,3 +1,5 @@
+<!--Calculate z1 and z2,
+values z1 and z2 must be equal -->
 <!DOCTYPE html>
 <html>
 <head>

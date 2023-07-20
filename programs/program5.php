@@ -1,3 +1,5 @@
+<!--if |c+k|>2  t2 = tan^2(c-2k) 
+if 0.5 < |c+k| <=2 t2 = ln(|c-2k|) - sin(c/2k)-->
 <!DOCTYPE html>
 <html>
 <head>
