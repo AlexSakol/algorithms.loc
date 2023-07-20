@@ -14,7 +14,7 @@
 			<input type="submit"><br>			
 </form>
 		<?php 
-		if(!empty($_POST['x']) && !empty($_POST['x']))
+		if(!empty($_POST["x"]) && !empty($_POST["y"]))
 		{
             if(preg_match("|^[\d]*[\.,]?[\d]*$|", $_POST['x']) && preg_match("|^[\d]*[\.,]?[\d]*$|", $_POST['y']))
             {

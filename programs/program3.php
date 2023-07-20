@@ -15,9 +15,9 @@ if z >= -1 x=|z| -->
 			<input type="submit"><br>			
 </form>
 		<?php 
-		if(!empty($_POST))
+		if(!empty($_POST["z"]) and preg_match("|^[\d]*[\.,]?[\d]*$|", $_POST['z']))
 		{
-           $z= $_POST['z'];
+            $z= $_POST["z"];
             $x;
 			if ($z < -1)
             {
